@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My home Page</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+<form method="post" action="/home">
+<%= csrf_meta_tag %> 
+	<input type="text" name="someText">
+</form>
+
+
+
+
+<%= link_to 'About', about_path %>
+
+</body>
+</html>
